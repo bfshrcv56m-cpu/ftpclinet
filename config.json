@@ -1,0 +1,24 @@
+{
+  "devices": [
+    {
+      "name": "设备1",
+      "host": "192.168.1.100",
+      "port": "21",
+      "username": "admin",
+      "password": "password123",
+      "remoteDir": "/mnt/mmcblk0k1/syslogs",
+      "localDir": "./logs/device1",
+      "fileFilter": ".log"
+    },
+    {
+      "name": "设备2",
+      "host": "192.168.1.101",
+      "port": "21",
+      "username": "admin",
+      "password": "password123",
+      "remoteDir": "/mnt/mmcblk0k1/syslogs",
+      "localDir": "./logs/device2",
+      "fileFilter": ".log"
+    }
+  ]
+}
